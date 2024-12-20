@@ -40,16 +40,20 @@ img {
 }
 
 button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.btn {
+  text-transform: uppercase;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  background-color: transparent;
-  border: none;
   border-radius: 12px;
-  padding: 0;
-  cursor: pointer;
-  outline: none;
 }
 
 input {
