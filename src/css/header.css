@@ -34,8 +34,16 @@
   align-items: center;
   color: var(--white);
 }
+
+.logo:hover .logo__svg,
+.logo:focus .logo__svg,
+.logo:active .logo__svg {
+  fill: var(--accent);
+}
+
 .logo__svg {
   fill: currentColor;
+  transition: fill 300ms;
 }
 .nav__list {
   display: none;
