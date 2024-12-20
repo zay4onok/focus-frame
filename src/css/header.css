@@ -1,5 +1,5 @@
 .header {
-  padding-top: 20px;
+  padding: 20px 0;
 }
 .header__inner {
   display: flex;
@@ -34,8 +34,16 @@
   align-items: center;
   color: var(--white);
 }
+
+.logo:hover .logo__svg,
+.logo:focus .logo__svg,
+.logo:active .logo__svg {
+  fill: var(--accent);
+}
+
 .logo__svg {
   fill: currentColor;
+  transition: fill 300ms;
 }
 .nav__list {
   display: none;
@@ -73,6 +81,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 40px;
+  }
   .header__inner {
     gap: 14px;
     height: 60px;
@@ -104,6 +115,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 80px;
+  }
   .header__nav {
     padding: 0 50px;
   }
@@ -127,6 +141,18 @@
     letter-spacing: normal;
     display: flex;
     gap: 28px;
+  }
+
+  .nav__link {
+    transition: color 300ms;
+  }
+  
+  .nav__item:hover .nav__link {
+    color: var(--accent);
+  }
+  .nav__link:focus,
+  .nav__link:active {
+    color: var(--accent);
   }
 }
 @media only screen and (min-width: 1440px) {
