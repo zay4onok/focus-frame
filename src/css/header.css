@@ -103,3 +103,29 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .header__nav {
+    padding: 0 50px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .header__link {
+    width: 238px;
+  }
+  .header__nav {
+    max-width: 822px;
+  }
+  .header__inner {
+    gap: 20px;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .nav__list {
+    text-transform: uppercase;
+    letter-spacing: normal;
+    display: flex;
+    gap: 28px;
+  }
+}
