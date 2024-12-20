@@ -72,3 +72,34 @@
   stroke: currentColor;
 }
 
+@media only screen and (min-width: 768px) {
+  .header__inner {
+    gap: 14px;
+    height: 60px;
+  }
+  .header__nav {
+    max-width: 504px;
+  }
+  .header__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 186px;
+    transition: color 300ms, background-color 300ms;
+  }
+  .header__link:hover,
+  .header__link:focus,
+  .header__link:active {
+    background-color: var(--grey);
+    color: var(--accent);
+  }
+  .header__mobile-link {
+    display: none;
+  }
+  .menu-btn__svg {
+    width: 40px;
+    height: 28px;
+  }
+}
+
