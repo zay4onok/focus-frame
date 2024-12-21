@@ -1,0 +1,148 @@
+.hero {
+}
+.hero__inner {
+  background-color: var(--grey);
+  border-radius: 30px;
+}
+.hero__content {
+  padding: 40px 20px 31px;
+}
+.hero__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+.hero__title span {
+  color: var(--accent);
+  font-style: italic;
+}
+.hero__text {
+  margin-bottom: 40px;
+}
+.hero__info {
+  display: flex;
+  gap: 40px;
+}
+.hero__students-list {
+  display: flex;
+  margin-bottom: 4px;
+}
+.hero__students-item:not(:first-child) {
+  margin-left: -12px;
+}
+.hero__students-item:first-child {
+  z-index: 3;
+}
+.hero__students-item:nth-child(2) {
+  z-index: 2;
+}
+.hero__students-link {
+  display: block;
+  position: relative;
+  letter-spacing: -0.04em;
+  width: 89px;
+}
+.hero__students-link-svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  fill: currentColor;
+}
+
+.hero__reviews {
+  display: flex;
+  gap: 12px;
+}
+.hero__reviews-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+.hero__reviews-img {
+  fill: transparent;
+  stroke: var(--dark);
+}
+.hero__reviews-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+}
+.hero__reviews-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+}
+.hero__bg {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero__content {
+    padding: 64px 32px 40px;
+  }
+  .hero__title {
+    max-width: 517px;
+    font-size: 60px;
+    line-height: 64px;
+  }
+  .hero__text {
+    max-width: 418px;
+  }
+  .hero__students {
+    display: flex;
+    gap: 12px;
+  }
+  .hero__students-list {
+    margin-bottom: 0;
+  }
+  .hero__students-img {
+    width: 54px;
+    height: 54px;
+  }
+  .hero__students-item:not(:first-child) {
+    margin-left: -14px;
+  }
+  .hero__students-item:last-child {
+    margin-left: -11px;
+  }
+  .hero__students-link {
+    width: 82px;
+    font-size: 16px;
+    line-height: 1.25;
+    height: 56px;
+  }
+  .hero__students-link-svg {
+    left: 0;
+    transform: translateY(-100%);
+    top: 100%;
+  }
+  .hero__reviews-box {
+    width: 50px;
+    height: 50px;
+  }
+  .hero__reviews-title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .hero__reviews-text {
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .hero__info {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
