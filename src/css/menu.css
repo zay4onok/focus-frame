@@ -61,3 +61,22 @@
 .mobile-menu__item.current {
   font-weight: 700;
 }
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu__close {
+    right: 32px;
+  }
+  .mobile-menu__close-svg {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile-menu__content {
+    width: 480px;
+  }
+  .mobile-menu__list {
+    padding: 232px 64px 0;
+  }
+  .mobile-menu__item {
+    margin-bottom: 28px;
+  }
+}
