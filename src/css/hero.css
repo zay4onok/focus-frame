@@ -140,6 +140,33 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .hero__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px 0 50px;
+  }
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 50px 0;
+  }
+  .hero__title {
+    max-width: 563px;
+    font-size: 64px;
+    line-height: 68px;
+  }
+  .hero__text {
+    margin-bottom: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero__inner {
+    padding: 80px 100px 0 50px;
+  }
+}
+
 @media only screen and (max-width: 332px) {
   .hero__info {
     gap: 0;
