@@ -80,7 +80,6 @@ input {
 
 .background {
   background-image: url(../img/body/body-bg_mob@1x.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
