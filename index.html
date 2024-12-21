@@ -64,7 +64,7 @@
     <!-- ! styles -->
 
     <script type="module" crossorigin src="/goit-html-css-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-html-css-project/assets/index-BrhSRB6-.css">
+    <link rel="stylesheet" crossorigin href="/goit-html-css-project/assets/index-BpcTiclB.css">
   </head>
   <body>
     <div class="background">
@@ -191,9 +191,82 @@
 
     <!-- ! mobile menu -->
 
-    
+    <div class="mobile-menu js-menu-container">
+  <div class="mobile-menu__content">
+    <button
+      class="mobile-menu__close js-close-menu"
+      aria-label="'close menu' button"
+    >
+      <svg class="mobile-menu__close-svg" width="32" height="32">
+        <use href="../img/icons.svg#icon-close" />
+      </svg>
+    </button>
+    <ul class="mobile-menu__list">
+      <li class="mobile-menu__item current">
+        <a
+          class="mobile-menu__link"
+          href="#about"
+          aria-label="link to 'about' block"
+          >about us</a
+        >
+      </li>
+      <li class="mobile-menu__item">
+        <a
+          class="mobile-menu__link"
+          href="#courses"
+          aria-label="link to 'courses' block"
+          >our courses</a
+        >
+      </li>
+      <li class="mobile-menu__item">
+        <a
+          class="mobile-menu__link"
+          href="#mentors"
+          aria-label="link to 'mentors' block"
+          >our mentors</a
+        >
+      </li>
+      <li class="mobile-menu__item">
+        <a
+          class="mobile-menu__link"
+          href="#reviews"
+          aria-label="link to 'reviews' block"
+          >reviews</a
+        >
+      </li>
+      <li class="mobile-menu__item">
+        <a
+          class="mobile-menu__link"
+          href="#contacts"
+          aria-label="link to 'contacts' block"
+          >contacts</a
+        >
+      </li>
+    </ul>
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/menu/menu-img_tablet@1x.png 1x, ../img/menu/menu-img_tablet@2x.png 2x"
+      />
+      <img
+        class="mobile-menu__img"
+        src="../img/menu/menu-img_mob@1x.png"
+        srcset="../img/menu/menu-img_mob@1x.png 1x, ../img/menu/menu-img_mob@2x.png 2x"
+        alt="photograph of a camera on a stand"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</div>
+
 
     <!-- ! scripts -->
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./mobile-menu.js"></script>
   </body>
 </html>
