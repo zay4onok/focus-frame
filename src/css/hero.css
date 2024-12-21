@@ -161,6 +161,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .hero__inner {
+    padding: 80px 100px 0 50px;
+  }
+}
+
 @media only screen and (max-width: 332px) {
   .hero__info {
     gap: 0;
