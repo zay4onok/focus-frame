@@ -93,7 +93,7 @@
     flex-wrap: wrap;
   }
   .courses__item {
-    padding: 98px 32px 32px;
+    padding: 98px 31px 32px;
     width: calc((100% - 20px) / 2);
     height: 452px;
   }
