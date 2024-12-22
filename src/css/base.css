@@ -82,6 +82,7 @@ input {
   background-image: url(../img/body/body-bg_mob@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 320px;
 }
 
 .h2 {
