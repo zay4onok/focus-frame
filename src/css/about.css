@@ -37,3 +37,17 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .about__inner {
+    gap: 50px;
+  }
+  .about__text-box {
+    gap: 40px;
+  }
+  .about__text:nth-child(1) {
+    width: 314px;
+  }
+  .about__text:nth-child(2) {
+    width: 276px;
+  }
+}
