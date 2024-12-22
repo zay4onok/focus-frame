@@ -32,8 +32,11 @@
   .about__text-box {
     gap: 20px;
   }
-  .about__text {
-    width: 266px;
+  .about__text:nth-child(1) {
+    width: 268px;
+  }
+  .about__text:nth-child(2) {
+    width: 264px;
   }
 }
 
