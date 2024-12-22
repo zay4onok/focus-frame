@@ -23,6 +23,7 @@
 }
 .courses__item::before {
   position: absolute;
+  left: 28px;
   top: 28px;
   color: #fff6;
   font-size: 14px;
@@ -72,16 +73,40 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .courses__top {
+    display: flex;
+    gap: 58px;
+    margin-bottom: 50px;
+  }
+
+  .courses__title.h2 {
+    margin-bottom: 0;
+  }
+  .courses__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 381px;
+    margin-bottom: 0;
+  }
   .courses__list {
     flex-direction: row;
     flex-wrap: wrap;
   }
   .courses__item {
+    padding: 98px 32px 32px;
     width: calc((100% - 20px) / 2);
     height: 452px;
   }
   .courses__item-text {
     font-size: 16px;
     line-height: 20px;
+  }
+  .courses__link {
+    right: 32px;
+    top: 32px;
+  }
+  .courses__item::before {
+    top: 32px;
+    left: 32px;
   }
 }
