@@ -1,0 +1,10 @@
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about__text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
