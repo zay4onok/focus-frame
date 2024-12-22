@@ -23,3 +23,17 @@
     width: 280px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .about__inner {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about__text-box {
+    gap: 20px;
+  }
+  .about__text {
+    width: 266px;
+  }
+}
+
