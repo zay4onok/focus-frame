@@ -1,52 +1,75 @@
 <section class="sign section" id="sign">
   <div class="container">
-    <h2 class="sign__title h2">Sign <span>Up</span></h2>
-    <p class="sign__text">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-    <form class="sign__form">
-      <input
-        class="sign__form-input"
-        type="text"
-        name="user_name"
-        minlength="2"
-        maxlength="20"
-        required
-        placeholder="Enter your name"
-      />
-      <input
-        class="sign__form-input"
-        type="email"
-        name="user_email"
-        maxlength="500"
-        required
-        placeholder="Enter your email"
-      />
-      <textarea
-        class="sign__form-input sign__form-textarea"
-        name="user_text"
-        minlength="10"
-        maxlength="500"
-        required
-        placeholder="Message"
-      ></textarea>
-      <button
-        class="sign__form-btn btn btn-accent"
-        type="submit"
-        aria-label="send form"
-      >
-        Send
-      </button>
-      <p class="sign__form-text">
-        By clicking on “Send” button, you agree to our
-        <a
-          class="sign__form-textlink"
-          href="#"
-          aria-label="link to Privacy Policy"
-          >Privacy Policy</a
-        >, <br> and allow Promodo to use this information for marketing purposes.
-      </p>
-    </form>
+    <div class="sign__inner">
+      <div class="sign__content">
+        <h2 class="sign__title h2">Sign <span>Up</span></h2>
+        <p class="sign__text">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
+        <form class="sign__form">
+          <input
+            class="sign__form-input"
+            type="text"
+            name="user_name"
+            minlength="2"
+            maxlength="20"
+            required
+            placeholder="Enter your name"
+          />
+          <input
+            class="sign__form-input"
+            type="email"
+            name="user_email"
+            maxlength="500"
+            required
+            placeholder="Enter your email"
+          />
+          <textarea
+            class="sign__form-input sign__form-textarea"
+            name="user_text"
+            minlength="10"
+            maxlength="500"
+            required
+            placeholder="Message"
+          ></textarea>
+          <button
+            class="sign__form-btn btn btn-accent"
+            type="submit"
+            aria-label="send form"
+          >
+            Send
+          </button>
+          <p class="sign__form-text">
+            By clicking on “Send” button, you agree to our
+            <a
+              class="sign__form-textlink"
+              href="#"
+              aria-label="link to Privacy Policy"
+              >Privacy Policy</a
+            >, <br />
+            and allow Promodo to use this information for marketing purposes.
+          </p>
+        </form>
+      </div>
+      <picture class="sign__img">
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            /img/sign/sign-img_1440@1x.png 1x,
+            /img/sign/sign-img_1440@2x.png 2x
+          "
+        />
+        <img
+          src="/img/sign/sign-img_1280@1x.png"
+          srcset="
+            /img/sign/sign-img_1280@1x.png 1x,
+            /img/sign/sign-img_1280@2x.png 2x
+          "
+          alt="photography cameras"
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </section>

@@ -44,6 +44,15 @@
   text-decoration: underline;
 }
 
+.sign__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign__img {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .sign__text {
     font-size: 16px;
@@ -70,5 +79,11 @@
   .sign__form-text {
     font-size: 14px;
     line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign__img {
+    display: block;
   }
 }
