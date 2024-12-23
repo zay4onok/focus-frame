@@ -21,7 +21,7 @@
 .sign__form-input:focus {
   border-color: rgba(255, 255, 255, 0.5);
 }
-.sign__form-textarea {
+.sign__form-input.sign__form-textarea {
   height: 112px;
   resize: none;
   background-color: transparent;
@@ -42,4 +42,33 @@
 
 .sign__form-textlink {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .sign__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 480px;
+  }
+  .sign__form {
+    width: 480px;
+  }
+  .sign__form-input {
+    font-size: 16px;
+    line-height: 20px;
+    height: 60px;
+    margin-bottom: 14px;
+  }
+  .sign__form-input.sign__form-textarea {
+    height: 119px;
+    padding-top: 20px;
+  }
+  .sign__form-btn {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .sign__form-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
