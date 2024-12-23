@@ -17,7 +17,7 @@
   background-image: linear-gradient(#060707, #1d1d1d);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
-  padding: 88px 28px 28px;
+  padding: 88px 27px 26px;
   counter-increment: num;
   height: 398px;
 }
@@ -40,7 +40,7 @@
   right: 28px;
   width: 32px;
   height: 32px;
-  background-color: var(--dark);
+  background-color: var(--grey);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -66,6 +66,7 @@
   font-size: 28px;
   line-height: 32px;
   letter-spacing: normal;
+  width: 166px;
   margin-bottom: auto;
 }
 .courses__item-text {
@@ -75,7 +76,7 @@
 @media only screen and (min-width: 768px) {
   .courses__top {
     display: flex;
-    gap: 58px;
+    justify-content: space-between;
     margin-bottom: 50px;
   }
 
@@ -93,7 +94,7 @@
     flex-wrap: wrap;
   }
   .courses__item {
-    padding: 98px 31px 32px;
+    padding: 98px 31px 31px;
     width: calc((100% - 20px) / 2);
     height: 452px;
   }
