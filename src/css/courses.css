@@ -111,3 +111,22 @@
     left: 32px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .courses__text {
+    width: 405px;
+  }
+  .courses__item {
+    padding: 98px 29px 29px;
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .courses__text {
+    width: 568px;
+  }
+  .courses__item {
+    padding: 98px 32px 32px;
+  }
+}
