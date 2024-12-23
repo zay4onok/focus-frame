@@ -97,14 +97,8 @@
     align-items: center;
     height: 100%;
     width: 186px;
-    transition: color 300ms, background-color 300ms;
   }
-  .header__link:hover,
-  .header__link:focus,
-  .header__link:active {
-    background-color: var(--grey);
-    color: var(--accent);
-  }
+
   .header__mobile-link {
     display: none;
   }

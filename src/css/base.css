@@ -104,6 +104,14 @@ input {
 .btn-accent {
   background-color: var(--white);
   color: var(--dark);
+  transition: color 300ms, background-color 300ms;
+}
+
+.btn-accent:hover,
+.btn-accent:focus,
+.btn-accent:active {
+  background-color: var(--grey);
+  color: var(--accent);
 }
 
 .btn-accent-opposite {
