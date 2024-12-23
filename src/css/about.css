@@ -46,11 +46,12 @@
   }
   .about__text-box {
     gap: 40px;
+    padding: 10px 0;
   }
   .about__text:nth-child(1) {
-    width: 314px;
+    width: 315px;
   }
   .about__text:nth-child(2) {
-    width: 276px;
+    width: 278px;
   }
 }
