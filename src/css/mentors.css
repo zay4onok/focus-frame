@@ -29,12 +29,15 @@
 
 @media only screen and (min-width: 768px) {
   .mentors__list {
-    display: grid;
-    grid-template-columns: repeat(2, 194px);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 488px;
+    margin: 0 auto;
     gap: 94px 100px;
   }
   .mentors__item {
+    width: calc((100% - 100px) / 2);
     margin-bottom: 0;
   }
   .mentors__item-title {
