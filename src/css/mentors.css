@@ -10,7 +10,7 @@
 
 .mentors__item-content {
   text-align: center;
-  padding: 16px 18px 0;
+  padding: 16px 0 0;
 }
 
 .mentors__item-title {
@@ -25,4 +25,24 @@
   font-size: 12px;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors__list {
+    display: grid;
+    grid-template-columns: repeat(2, 194px);
+    justify-content: center;
+    gap: 94px 100px;
+  }
+  .mentors__item {
+    margin-bottom: 0;
+  }
+  .mentors__item-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .mentors__item-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
