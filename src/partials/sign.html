@@ -14,6 +14,7 @@
             name="user_name"
             minlength="2"
             maxlength="20"
+            pattern="[a-яА-Яa-zA-Z\s]*"
             required
             placeholder="Enter your name"
           />
@@ -21,6 +22,7 @@
             class="sign__form-input"
             type="email"
             name="user_email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
             maxlength="500"
             required
             placeholder="Enter your email"
