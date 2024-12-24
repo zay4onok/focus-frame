@@ -128,3 +128,8 @@
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .reviews__text {
+    height: 80px;
+  }
+}
