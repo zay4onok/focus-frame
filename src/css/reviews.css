@@ -9,7 +9,6 @@
 }
 
 .reviews__item-top {
-  height: 76px;
   margin-bottom: 20px;
 }
 .reviews__info {
@@ -74,4 +73,42 @@
 
 .slick-dots li.slick-active {
   background-color: var(--accent);
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews__list {
+    margin: 0 auto;
+    width: 680px;
+  }
+  .reviews__item-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews__rate-item-img {
+    width: 20px;
+    height: 20px;
+  }
+  .reviews__rate-list {
+    align-items: start;
+    margin-left: 0;
+  }
+  .reviews__text {
+    font-size: 16px;
+    line-height: 20px;
+    height: 80px;
+    overflow-y: auto;
+  }
+  .reviews__info {
+    margin-bottom: 0px;
+  }
+  .reviews__name-job {
+    padding: 3px 0;
+  }
+  .reviews__name {
+    line-height: 1.4;
+  }
+  .reviews__job {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
