@@ -117,6 +117,13 @@ input {
 .btn-accent-opposite {
   background-color: var(--grey);
   color: var(--white);
+  transition: color 300ms;
+}
+
+.btn-accent-opposite:hover,
+.btn-accent-opposite:focus,
+.btn-accent-opposite:active {
+  color: var(--accent);
 }
 
 @media (min-device-pixel-ratio: 2),
