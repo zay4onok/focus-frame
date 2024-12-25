@@ -147,13 +147,13 @@
     margin-bottom: 75px;
   }
   .footer__logo-address {
-    width: 152px;
+    max-width: 152px;
     margin-bottom: 0;
     margin-right: 48px;
   }
   .footer .logo {
     margin-bottom: 22px;
-}
+  }
   .footer__media-nav {
     gap: 25px;
     margin-bottom: 0;
@@ -180,5 +180,28 @@
     .footer {
       background-image: url(../img/footer/footer-bg_tab@2x.png);
     }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer__inner {
+    margin-bottom: 50px;
+  }
+  .footer__logo-address {
+    max-width: 100%;
+    margin-right: 140px;
+  }
+  .footer__media-nav {
+    gap: 50px;
+  }
+  .media__item:not(:last-child),
+  .footer .nav__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .footer__form-box {
+    width: 216px;
+  }
+  .footer__form {
+    gap: 16px;
   }
 }
