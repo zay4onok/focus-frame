@@ -1,3 +1,127 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: url(../img/footer/footer-bg_mob@1x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__inner {
+  padding: 40px 0 20px;
+}
+
+.footer__logo-address {
+  margin-bottom: 40px;
+}
+
+.footer .logo {
+  justify-content: start;
+  margin-bottom: 16px;
+}
+
+.address {
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.address__link {
+  transition: color 300ms;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.address__link:hover,
+.address__link:focus,
+.address__link:active {
+  color: var(--accent);
+}
+
+.footer__media-nav {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.media {
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.media__link {
+  transition: color 300ms;
+}
+
+.media__link:hover,
+.media__link:focus,
+.media__link:active {
+  color: var(--accent);
+}
+
+.media__item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer .nav {
+  display: block;
+  letter-spacing: normal;
+}
+
+.footer .nav__list {
+  display: block;
+  text-transform: uppercase;
+}
+
+.footer .nav__link {
+  transition: color 300ms;
+}
+
+.footer .nav__link:hover,
+.footer .nav__link:focus,
+.footer .nav__link:active {
+  color: var(--accent);
+}
+
+.footer .nav__item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.footer__form-box {
+  width: 100%;
+}
+.footer__form-input {
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  height: 60px;
+  padding: 0 10px 0 18px;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+.footer__form-btn {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  min-width: 60px;
+  min-height: 60px;
+  text-transform: capitalize;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom-text {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -8,4 +132,12 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
   white-space: nowrap;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/footer/footer-bg_mob@2x.png);
+  }
 }
