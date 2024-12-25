@@ -64,13 +64,13 @@
     <!-- ! styles -->
 
     <script type="module" crossorigin src="/goit-html-css-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-html-css-project/assets/index-Q_jh-IQP.css">
+    <link rel="stylesheet" crossorigin href="/goit-html-css-project/assets/index-CnOF9Dly.css">
   </head>
   <body>
     <div class="background section">
       <!-- ! header -->
 
-      <section class="header">
+      <header class="header">
   <div class="container">
     <div class="header__inner">
       <div class="header__nav">
@@ -153,7 +153,7 @@
       >
     </div>
   </div>
-</section>
+</header>
 
 
       <!-- !hero -->
@@ -250,7 +250,7 @@
 
     </div>
 
-    <main>
+    <main class="main">
       <div class="advertisement section">
   <div class="advertisement__inner">
     <p class="advertisement__text">
@@ -636,7 +636,156 @@
 
     <!-- ! footer -->
 
-    
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__logo-address">
+        <a class="logo" href="/index.html" aria-label="'home' link">
+          <svg class="logo__svg" width="127" height="20">
+            <use href="/goit-html-css-project/assets/icons-BaiL9d2R.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <address class="address">
+          <ul class="address__list">
+            <li class="address__item">
+              <a
+                class="address__link"
+                href="tel:+380665438912"
+                aria-label="phone number"
+                >+38 066 543 8912</a
+              >
+            </li>
+            <li class="address__item">
+              <a
+                class="address__link"
+                href="https://maps.app.goo.gl/wGYfsHapucLZ9aTH6"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open address in Google Maps"
+                >1678 S. Pioneer Road Salt Lake City UT 84104</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer__media-nav">
+        <ul class="media">
+          <li class="media__item">
+            <a
+              class="media__link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GOIT Club on Instagram (opens in a new tab)"
+              >instagram</a
+            >
+          </li>
+          <li class="media__item">
+            <a
+              class="media__link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GOIT Club on Facebook (opens in a new tab)"
+              >facebook</a
+            >
+          </li>
+          <li class="media__item">
+            <a
+              class="media__link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GOIT Club on YouTube (opens in a new tab)"
+              >youtube</a
+            >
+          </li>
+        </ul>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#about"
+                aria-label="link to 'about' block"
+                >About us</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#courses"
+                aria-label="link to 'courses' block"
+                >Our courses</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#mentors"
+                aria-label="link to 'mentors' block"
+                >Our mentors</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#reviews"
+                aria-label="link to 'reviews' block"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#contacts"
+                aria-label="link to 'contacts' block"
+                >contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <form class="footer__form">
+        <div class="footer__form-box">
+          <label
+            class="footer__form-label visually-hidden"
+            for="user_footer_email"
+            >Email</label
+          >
+          <input
+            class="footer__form-input"
+            type="email"
+            id="user_footer_email"
+            name="user_footer_email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            maxlength="500"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <button
+          class="footer__form-btn btn btn-accent-opposite"
+          type="submit"
+          aria-label="submit email"
+        >
+          Go
+        </button>
+      </form>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__bottom-text">
+        Privacy Policy <br />
+        Public Offering Agreement
+      </p>
+      <p class="footer__bottom-text">
+        2024 Focus Frame <br />
+        © All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
 
     <!-- ! mobile menu -->
 
