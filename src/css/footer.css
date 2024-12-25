@@ -185,14 +185,16 @@
 
 @media only screen and (min-width: 1280px) {
   .footer__inner {
+    justify-content: space-between;
     margin-bottom: 50px;
   }
   .footer__logo-address {
     max-width: 100%;
-    margin-right: 140px;
+    margin-right: 0;
   }
   .footer__media-nav {
     gap: 50px;
+    margin-right: 0;
   }
   .media__item:not(:last-child),
   .footer .nav__item:not(:last-child) {
@@ -216,3 +218,18 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .footer__media-nav {
+    gap: 100px;
+  }
+  .footer {
+    background-image: url(../img/footer/footer-bg_1440@1x.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/footer/footer-bg_1280@2x.png);
+    }
+  }
+}
