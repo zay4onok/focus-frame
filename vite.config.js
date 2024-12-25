@@ -13,12 +13,6 @@ export default defineConfig(({ command }) => {
     build: {
       sourcemap: true,
       rollupOptions: {
-        external: [
-          './src/slick.min.js',
-          './src/jquery.fancybox.min.js',
-          './src/mobile-menu.js',
-          './src/main.js',
-        ],
         input: glob.sync('./src/*.html'),
         output: {
           manualChunks(id) {
