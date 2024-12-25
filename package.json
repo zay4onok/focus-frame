@@ -1,11 +1,11 @@
 {
-  "name": "goit-html-css-project",
+  "name": "focus-frame",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-html-css-project/",
+    "build": "vite build --base=/focus-frame/",
     "preview": "vite preview"
   },
   "devDependencies": {
